@@ -440,3 +440,5 @@
 (defun pragmatapro-get-mode-icon ()
   (let ((z (gethash (downcase mode-name) pragmatapro-icons)))
     (if z z mode-name)))
+
+(provide 'pragmatapro-lig)
